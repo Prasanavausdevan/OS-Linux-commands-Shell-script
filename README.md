@@ -187,7 +187,9 @@ hello world
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-
+```
+2
+```
 
 
 
@@ -198,6 +200,10 @@ grep -R ubuntu /etc
 
 grep -w -n world newfile   
 ## OUTPUT
+```
+1:Hello world
+2:hello world
+```
 
 
 cat < newfile 
@@ -223,9 +229,9 @@ egrep -w 'Hello|hello' newfile
 ## OUTPUT
 
 
-
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
+
 
 
 
